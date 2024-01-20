@@ -1,9 +1,9 @@
 <script>
-    import { base } from '$app/paths';
     import polarbear from '$lib/images/PolarBear.png';
     import polarbear_stand from '$lib/images/PolarBear_stand.png';
     import anime from 'animejs/lib/anime.es.js';
     import { onMount } from 'svelte';
+    import Graph1 from '$lib/components/graph_1.svelte';
     import * as d3 from 'd3';
 
     $: scroll_position = 0;
@@ -31,65 +31,21 @@
         });
     }
 
-    function example_graph() {
-        // Sample data: an array of objects with x and y properties
-        const data = [
-                { x: 30, y: 30 },
-                { x: 70, y: 70 },
-                { x: 110, y: 100 },
-                { x: 140, y: 110 },
-                { x: 170, y: 150 },
-                // Add more data points as needed
-            ];
-
-            // SVG dimensions
-            const width = 500;
-            const height = 500;
-            const margin = { top: 20, right: 20, bottom: 60, left: 40 };
-
-            // Create scale functions
-            const xScale = d3.scaleLinear()
-                            .domain([0, d3.max(data, d => d.x)]) // Input
-                            .range([margin.left, width - margin.right]); // Output
-
-            const yScale = d3.scaleLinear()
-                            .domain([0, d3.max(data, d => d.y)]) // Input
-                            .range([height - margin.bottom, margin.top]); // Output
-
-            // Create SVG element
-            const svg = d3.select('.graph')
-                        .append('svg')
-                        .attr('width', width)
-                        .attr('height', height);
-
-            // Create points
-            svg.selectAll('circle')
-            .data(data)
-            .enter()
-            .append('circle')
-            .attr('cx', d => xScale(d.x))
-            .attr('cy', d => yScale(d.y))
-            .attr('fill', 'white')
-            .attr('r', 5);
-
-            // Create axes
-            svg.append('g')
-            .attr('transform', `translate(0,${height - margin.bottom})`)
-            .call(d3.axisBottom(xScale));
-
-            svg.append('g')
-            .attr('transform', `translate(${margin.left},0)`)
-            .call(d3.axisLeft(yScale));   
-
+    function clean_graph() {
+        const graph = document.querySelector('svg');
+        graph.innerHTML = '';
+        d3.select(graph).selectAll('*').remove();
     }
-
     
     let rendered = false;
     onMount(() => {
         rendered = true;
         animation_init();
         onscroll_animation();
-        example_graph();
+        clean_graph();
+        new Graph1({
+            target: document.querySelector('svg'),
+        });
     });
 
 
@@ -139,9 +95,7 @@
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ipsam asperiores. Tempora dolore fugit dolorem est officiis maxime, deserunt asperiores? Dolorum expedita earum fugiat accusamus placeat perspiciatis ratione reiciendis, odit omnis consectetur blanditiis et aspernatur ab nobis ex aliquam eius necessitatibus odio quisquam sed at unde! Velit optio odio maiores fugit eligendi ducimus officia commodi pariatur, est nesciunt ullam voluptatem itaque aliquam sit unde cupiditate, veniam asperiores? Laboriosam accusantium officia nemo voluptatum mollitia. Fuga dolorum mollitia voluptatum aperiam, blanditiis, culpa cupiditate quasi saepe maxime, quaerat sequi nam quos ipsam neque! Eaque illo reiciendis error in obcaecati perferendis fugit corporis porro perspiciatis? Dicta similique, iure nobis rem in iste obcaecati aliquid quos deserunt vel eos autem quaerat aliquam distinctio voluptates doloribus, sequi iusto. Natus sapiente assumenda, est sed molestiae suscipit nihil aspernatur placeat praesentium? Perferendis iure reprehenderit, error rerum corporis facilis.
     </p>
 
-    <div class="graph">
-        <svg> </svg>
-    </div>
+    <svg> </svg>
 
 </div>
 
@@ -182,7 +136,7 @@
     }
 
     .home {  
-        background-color: #202eb3;
+        background-color: #0d176d;
         color: #fff;
         height: 100vh;
         width: 100vw;
@@ -196,10 +150,15 @@
         top: 3rem;
     }
 
-    .graph {
+    svg {
         position: absolute;
-        top: 5rem;
-        right: 10rem;
-    }
+        top: 2rem;
+        right: 0;
+        z-index: 100;
+        display: block;
+        margin-inline: auto;
+        width: 60%;
+        height: 40rem;
+    }   
 
 </style>

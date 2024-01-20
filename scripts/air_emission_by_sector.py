@@ -1,7 +1,7 @@
 import pandas as pd
-
+import json
 # Read the data from the CSV file
-data = pd.read_csv('../dataset/air_emission.csv', sep=',')
+data = pd.read_csv('../dataset/air_emission_by_sector.csv', sep=',')
 
 # Map the column nace_r2 with the full name
 def map_type(nace_r2):
@@ -30,6 +30,13 @@ def map_type(nace_r2):
 data = data.assign(type=data['nace_r2'].map(map_type))
 
 # Create a .json with the type of activity together with the quarterly in column TIME_PERIOD, and the value in OBS_VALUE
-data[['type', 'TIME_PERIOD', 'OBS_VALUE']].to_json('../dataset/air_emission.json', orient='records')
+data = data[['type', 'TIME_PERIOD', 'OBS_VALUE']]
 
-print(data[['nace_r2', 'type']])
+# Create a .json like that: {type: [TIME_PERIOD: OBS_VALUE]}
+# Group by type and create the desired JSON structure
+data = data.groupby('type').apply(lambda x: x[['TIME_PERIOD', 'OBS_VALUE']].to_dict('records')).to_dict()
+
+# Write the data in a .json file
+with open('../src/lib/data/air_emission_by_sectors.json', 'w') as file:
+    file.write(json.dumps(data, indent=2))
+

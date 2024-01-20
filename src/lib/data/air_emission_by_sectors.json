@@ -1,0 +1,2182 @@
+{
+    "Agricolture, forestry and fishing": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 117442.351
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 120182.728
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 121224.023
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 121021.692
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 116520.311
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 119335.072
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 120901.549
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 120917.564
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 115923.134
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 118433.302
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 120174.928
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 119809.618
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 116278.964
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 119202.282
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 120822.306
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 120545.262
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 117316.293
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 120185.62
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 122508.346
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 121865.644
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 117919.595
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 120426.093
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 122989.742
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 122225.962
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 118606.222
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 121125.907
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 123627.285
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 122468.573
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 119605.604
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 122372.97
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 124909.343
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 124136.047
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 120003.335
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 122633.051
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 124654.164
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 122557.162
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 118675.479
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 119241.798
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 122312.982
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 119981.751
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 117118.91
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 119733.788
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 122427.359
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 121962.191
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 118561.864
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 120765.04
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 123995.027
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 120889.736
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 117306.113
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 118309.214
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 121138.158
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 118179.341
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 115752.207
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 117219.598
+        }
+    ],
+    "All NACE activities plus households": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 284771.839
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 171524.418
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 138043.325
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 266885.756
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 282217.795
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 153532.481
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 132401.406
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 239877.981
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 278405.718
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 163587.252
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 128784.323
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 232306.148
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 277725.172
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 167281.106
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 130078.235
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 229739.138
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 246925.719
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 158254.615
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 131957.702
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 224580.765
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 263347.762
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 164052.718
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 136128.232
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 222551.241
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 260540.687
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 163998.019
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 131897.844
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 243689.875
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 262343.347
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 163603.213
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 137129.556
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 233990.947
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 276569.524
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 147418.073
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 130893.186
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 228427.344
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 254557.557
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 166321.953
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 132433.18
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 223725.458
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 244673.66
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 128411.405
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 119889.136
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 213689.353
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 240348.451
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 158360.782
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 122800.62
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 218435.617
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 234010.472
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 146468.123
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 122527.02
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 198384.755
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 227889.836
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 146952.982
+        }
+    ],
+    "Construction": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 12373.671
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 13211.675
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 13133.992
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 14197.094
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 13175.472
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 13791.818
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 13518.861
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 14094.569
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 12665.332
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 13008.259
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 12720.143
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 13416.321
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 12066.219
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 12811.058
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 12645.204
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 13313.939
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 12088.338
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 12511.971
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 12340.531
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 13052.381
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 12018.485
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 12670.491
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 12573.124
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 13355.266
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 12161.254
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 12927.075
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 12606.468
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 13445.122
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 12390.444
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 12948.501
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 12795.203
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 13787.407
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 12642.376
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 13309.969
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 13021.89
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 13989.225
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 12932.072
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 13326.754
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 13154.542
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 13935.075
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 12367.175
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 11084.892
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 12499.912
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 13974.926
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 12729.773
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 13347.675
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 13108.692
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 14406.245
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 13057.34
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 13526.863
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 13237.198
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 14443.887
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 13146.231
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 13338.887
+        }
+    ],
+    "Electricity, gas, steam and air conditioning supply": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 310754.587
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 243822.875
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 254269.405
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 307084.091
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 305615.104
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 251206.93
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 256063.96
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 298605.345
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 315845.394
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 243745.123
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 255613.37
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 287737.297
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 296574.018
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 223108.963
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 245695.723
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 279309.86
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 259986.799
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 220356.146
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 235441.019
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 269255.995
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 269740.101
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 210710.015
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 242669.292
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 266159.807
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 256707.636
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 206959.117
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 227855.193
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 276225.444
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 277573.955
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 215096.149
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 221316.026
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 249942.034
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 248242.334
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 191289.179
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 222661.54
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 241070.811
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 225168.895
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 173518.397
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 184441.768
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 199618.187
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 180128.535
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 133638.756
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 168049.356
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 189158.513
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 191174.301
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 154201.862
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 168548.457
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 206713.534
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 200051.225
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 163399.086
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 177067.065
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 186722.483
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 175322.05
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 127437.939
+        }
+    ],
+    "Manufacturing": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 213889.745
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 236669.825
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 226039.865
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 233373.582
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 218374.084
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 229495.722
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 218381.551
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 222913.31
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 208871.633
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 220362.425
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 211922.388
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 215207.811
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 196707.695
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 213379.814
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 206899.287
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 211567.291
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 198850.666
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 208849.822
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 201704.134
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 207906.773
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 196663.636
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 210603.694
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 203561.436
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 210238.21
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 197521.249
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 213276.244
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 202685.111
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 210540.87
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 203281.474
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 214385.922
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 207221.269
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 215958.604
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 203874.432
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 216737.386
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 205545.855
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 213260.637
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 202381.159
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 208499.306
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 200795.799
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 206034.741
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 192347.961
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 169202.524
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 190511.967
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 205796.239
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 193319.532
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 204572.8
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 194816.867
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 205972.362
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 196093.159
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 203724.85
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 192006.701
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 199369.426
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 190220.952
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 192786.465
+        }
+    ],
+    "Mining and quarryng": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 18736.528
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 19915.306
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 19948.95
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 21837.888
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 19063.495
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 19929.848
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 19676.39
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 20692.749
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 17639.936
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 18013.925
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 17775.04
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 19052.867
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 16408.127
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 17390.53
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 17393.08
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 18576.161
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 15955.961
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 16502.404
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 16481.217
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 17869.21
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 15675.515
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 16570.076
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 16665.689
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 18028.274
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 15159.487
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 15872.927
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 15627.279
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 17109.185
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 14888.294
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 15499.587
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 15469.013
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 16858.134
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 14654.024
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 15173.973
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 14844.29
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 15910.637
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 13485.426
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 13727.497
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 13597.551
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 14845.633
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 12747.552
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 11825.143
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 12962.408
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 14454.518
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 12340.142
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 12792.376
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 12809.265
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 14428.07
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 12582.196
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 13058.336
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 13188.49
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 14625.169
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 12658.432
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 12931.952
+        }
+    ],
+    "Services (except transportation and storage)": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 71281.081
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 72704.967
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 71697.757
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 73141.588
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 67989.861
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 68047.458
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 66661.642
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 67764.818
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 64228.873
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 65285.503
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 65147.684
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 67369.958
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 64396.32
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 66310.127
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 65736.827
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 66237.269
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 60832.256
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 61142.503
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 60769.31
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 62652.457
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 60288.26
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 62633.07
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 63120.006
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 65334.448
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 61821.378
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 63818.775
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 63629.419
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 65618.115
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 62934.142
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 64421.253
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 64098.825
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 65541.409
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 61706.32
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 63216.763
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 63325.197
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 66387.4
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 64922.449
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 67360.613
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 68195.62
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 69950.705
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 63818.579
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 57849.765
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 63064.91
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 64314.714
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 61335.523
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 63684.558
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 65657.438
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 67941.366
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 64713.739
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 66819.256
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 67855.085
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 69086.804
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 65894.434
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 66897.829
+        }
+    ],
+    "Total activities by households": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 1177104.686
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 1030526.699
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 999880.943
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 1189369.913
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 1168345.642
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 1004956.206
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 980183.111
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 1134452.808
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 1158843.274
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 991470.55
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 961709.794
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 1102251.794
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 1121185.108
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 965895.954
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 945517.304
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 1080863.139
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 1047581.619
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 936357.676
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 921848.054
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 1057043.215
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 1075013.256
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 943622.291
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 944896.481
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 1064550.564
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 1065634.847
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 944509.317
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 927404.117
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 1095806.534
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 1099235.183
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 961576.592
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 938948.146
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 1074433.272
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 1088251.58
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 927010.124
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 933092.419
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 1056601.917
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 1038876.2
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 916858.506
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 893395.007
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 998991.981
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 960994.808
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 740469.641
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 818413.688
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 947482.768
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 945611.185
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 853275.128
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 840380.173
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 983412.637
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 966202.039
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 867056.421
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 854340.393
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 941837.262
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 935642.488
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 820757.045
+        }
+    ],
+    "Transportation and storage": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 102555.616
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 106778.28
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 110358.727
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 106268.439
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 101040.24
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 105273.37
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 108729.951
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 105171.422
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 101319.208
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 104796.56
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 105612.981
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 102897.693
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 97657.946
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 102820.677
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 103270.095
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 98521.174
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 93948.15
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 97086.719
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 99754.281
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 98590.509
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 98739.583
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 105044.984
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 106574.384
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 105477.195
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 102772.924
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 105795.831
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 109201.845
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 105731.653
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 105881.855
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 112686.155
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 115765.417
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 113271.269
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 110469.674
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 116918.471
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 118315.78
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 114540.98
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 107051.145
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 115160.024
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 118836.279
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 110524.521
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 98384.772
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 70818.55
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 89800.321
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 84025.453
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 76924.86
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 86658.808
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 100182.229
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 95356.593
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 89892.871
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 103053.654
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 108987.859
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 101925.167
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 96374.223
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 104843.691
+        }
+    ],
+    "Water supply; sewerage, waste management and remediation activities": [
+        {
+            "TIME_PERIOD": "2010-Q1",
+            "OBS_VALUE": 45299.266
+        },
+        {
+            "TIME_PERIOD": "2010-Q2",
+            "OBS_VALUE": 45716.625
+        },
+        {
+            "TIME_PERIOD": "2010-Q3",
+            "OBS_VALUE": 45164.899
+        },
+        {
+            "TIME_PERIOD": "2010-Q4",
+            "OBS_VALUE": 45559.785
+        },
+        {
+            "TIME_PERIOD": "2011-Q1",
+            "OBS_VALUE": 44349.28
+        },
+        {
+            "TIME_PERIOD": "2011-Q2",
+            "OBS_VALUE": 44343.506
+        },
+        {
+            "TIME_PERIOD": "2011-Q3",
+            "OBS_VALUE": 43847.799
+        },
+        {
+            "TIME_PERIOD": "2011-Q4",
+            "OBS_VALUE": 44415.05
+        },
+        {
+            "TIME_PERIOD": "2012-Q1",
+            "OBS_VALUE": 43944.045
+        },
+        {
+            "TIME_PERIOD": "2012-Q2",
+            "OBS_VALUE": 44238.202
+        },
+        {
+            "TIME_PERIOD": "2012-Q3",
+            "OBS_VALUE": 43958.937
+        },
+        {
+            "TIME_PERIOD": "2012-Q4",
+            "OBS_VALUE": 44454.08
+        },
+        {
+            "TIME_PERIOD": "2013-Q1",
+            "OBS_VALUE": 43370.646
+        },
+        {
+            "TIME_PERIOD": "2013-Q2",
+            "OBS_VALUE": 43591.397
+        },
+        {
+            "TIME_PERIOD": "2013-Q3",
+            "OBS_VALUE": 42976.546
+        },
+        {
+            "TIME_PERIOD": "2013-Q4",
+            "OBS_VALUE": 43053.044
+        },
+        {
+            "TIME_PERIOD": "2014-Q1",
+            "OBS_VALUE": 41677.437
+        },
+        {
+            "TIME_PERIOD": "2014-Q2",
+            "OBS_VALUE": 41467.877
+        },
+        {
+            "TIME_PERIOD": "2014-Q3",
+            "OBS_VALUE": 40891.515
+        },
+        {
+            "TIME_PERIOD": "2014-Q4",
+            "OBS_VALUE": 41269.48
+        },
+        {
+            "TIME_PERIOD": "2015-Q1",
+            "OBS_VALUE": 40620.32
+        },
+        {
+            "TIME_PERIOD": "2015-Q2",
+            "OBS_VALUE": 40911.15
+        },
+        {
+            "TIME_PERIOD": "2015-Q3",
+            "OBS_VALUE": 40614.575
+        },
+        {
+            "TIME_PERIOD": "2015-Q4",
+            "OBS_VALUE": 41180.16
+        },
+        {
+            "TIME_PERIOD": "2016-Q1",
+            "OBS_VALUE": 40344.01
+        },
+        {
+            "TIME_PERIOD": "2016-Q2",
+            "OBS_VALUE": 40735.421
+        },
+        {
+            "TIME_PERIOD": "2016-Q3",
+            "OBS_VALUE": 40273.673
+        },
+        {
+            "TIME_PERIOD": "2016-Q4",
+            "OBS_VALUE": 40977.699
+        },
+        {
+            "TIME_PERIOD": "2017-Q1",
+            "OBS_VALUE": 40336.068
+        },
+        {
+            "TIME_PERIOD": "2017-Q2",
+            "OBS_VALUE": 40562.842
+        },
+        {
+            "TIME_PERIOD": "2017-Q3",
+            "OBS_VALUE": 40243.493
+        },
+        {
+            "TIME_PERIOD": "2017-Q4",
+            "OBS_VALUE": 40947.421
+        },
+        {
+            "TIME_PERIOD": "2018-Q1",
+            "OBS_VALUE": 40089.56
+        },
+        {
+            "TIME_PERIOD": "2018-Q2",
+            "OBS_VALUE": 40313.259
+        },
+        {
+            "TIME_PERIOD": "2018-Q3",
+            "OBS_VALUE": 39830.518
+        },
+        {
+            "TIME_PERIOD": "2018-Q4",
+            "OBS_VALUE": 40457.723
+        },
+        {
+            "TIME_PERIOD": "2019-Q1",
+            "OBS_VALUE": 39702.02
+        },
+        {
+            "TIME_PERIOD": "2019-Q2",
+            "OBS_VALUE": 39702.162
+        },
+        {
+            "TIME_PERIOD": "2019-Q3",
+            "OBS_VALUE": 39627.286
+        },
+        {
+            "TIME_PERIOD": "2019-Q4",
+            "OBS_VALUE": 40375.911
+        },
+        {
+            "TIME_PERIOD": "2020-Q1",
+            "OBS_VALUE": 39407.664
+        },
+        {
+            "TIME_PERIOD": "2020-Q2",
+            "OBS_VALUE": 37904.818
+        },
+        {
+            "TIME_PERIOD": "2020-Q3",
+            "OBS_VALUE": 39208.321
+        },
+        {
+            "TIME_PERIOD": "2020-Q4",
+            "OBS_VALUE": 40106.862
+        },
+        {
+            "TIME_PERIOD": "2021-Q1",
+            "OBS_VALUE": 38876.739
+        },
+        {
+            "TIME_PERIOD": "2021-Q2",
+            "OBS_VALUE": 38891.227
+        },
+        {
+            "TIME_PERIOD": "2021-Q3",
+            "OBS_VALUE": 38461.578
+        },
+        {
+            "TIME_PERIOD": "2021-Q4",
+            "OBS_VALUE": 39269.112
+        },
+        {
+            "TIME_PERIOD": "2022-Q1",
+            "OBS_VALUE": 38494.923
+        },
+        {
+            "TIME_PERIOD": "2022-Q2",
+            "OBS_VALUE": 38697.04
+        },
+        {
+            "TIME_PERIOD": "2022-Q3",
+            "OBS_VALUE": 38332.817
+        },
+        {
+            "TIME_PERIOD": "2022-Q4",
+            "OBS_VALUE": 39100.23
+        },
+        {
+            "TIME_PERIOD": "2023-Q1",
+            "OBS_VALUE": 38384.123
+        },
+        {
+            "TIME_PERIOD": "2023-Q2",
+            "OBS_VALUE": 38347.704
+        }
+    ]
+}
