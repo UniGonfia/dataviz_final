@@ -44,7 +44,7 @@
         })(sumstat);
 
     // set the dimensions and margins of the graph
-    const margin = { top: 30, right: 100, bottom: 30, left: 100 };
+    const margin = { top: 40, right: 100, bottom: 130, left: 100 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
     const height = document.querySelector("svg").getBoundingClientRect().height - margin.top - margin.bottom;
 
@@ -85,6 +85,88 @@
             .y0(d => y(d[0]))
             .y1(d => y(d[1]))
         );
+
+    
+
+    // Create the area generator for the lines
+    const lineGenerator = d3.area()
+        .x(d => x(d.data[0]))
+        .y0(d => y(d[0]))
+        .y1(d => y(d[0])); // use d[0] for both y0 and y1 to make a line
+
+    // Show the areas
+    svg.selectAll("mylayers")
+        .data(stackedData)
+        .enter()
+        .append("path")
+        .style("fill", d => color(d.key))
+        .attr("d", d3.area()
+            .x(d => x(d.data[0]))
+            .y0(d => y(d[0]))
+            .y1(d => y(d[1]))
+        );
+
+    // Add the lines on top of the areas
+    svg.selectAll("mylines")
+        .data(stackedData)
+        .enter()
+        .append("path")
+        .style("fill", "none")
+        .style("stroke", "black")
+        .style("stroke-width", 1)
+        .attr("d", lineGenerator);
+
+        // Add legend under the graph
+    const legend = svg.append("g")
+        .attr("transform", `translate(0,${height + 50})`)
+        .selectAll("g")
+        .data(keys)
+        .join("g")
+        .attr("transform", (d, i) => { // Adjust these values as needed to fit your layout
+            const xSpacing = 235; // Horizontal spacing between legend items
+            const ySpacing = 20;  // Vertical spacing between legend items
+
+            const col = i % 3;    // Column index (0, 1, or 2)
+            const row = Math.floor(i / 3); // Row index
+
+            const xPosition = col * xSpacing;
+            const yPosition = row * ySpacing;
+
+            return `translate(${xPosition}, ${yPosition})`;
+        });;
+
+    legend.append("rect")
+        .attr("width", 16)
+        .attr("height", 16)
+        .attr("fill", color);
+    
+    legend.append("text")
+        .attr("x", 24)
+        .attr("y", 9.5)
+        .attr("dy", "0.35em")
+        .attr("fill", "white")
+        .style("font-size", "0.8em")
+        .text(d => d);
+    
+
+    //Description
+    document.getElementsByClassName('description')[0].innerHTML = 
+        `
+        The graph shows the CO2 emissions of European countries divided by sector. 
+        <br/> <br/>
+        As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
+        <br/>
+        Focusing mainly on these sectors and reducing emissions would certainly lead to a lowering of pollution in Europe, and it is very interesting to note 
+        the lowering of emissions around 2020, probably caused by the first quarantines for covid, causing a stop in the manufacturing industry and a consequent 
+        lowering of the use of energy resources.
+        <br/> <br/>
+        According to a recent EEA analysis, using the best available techniques and implementing the more ambitious targets of the Industrial Emissions Directive 
+        would result in substantial emission reductions: 91 % for sulphur dioxide, 82 % for particulate matter and 79 % for nitrogen oxides.
+        <br/> <br/>
+        Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
+        think that the standards are succeeding at least to a small extent.
+        `;
+
 </script>
 
 
