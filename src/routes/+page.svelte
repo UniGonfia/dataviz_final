@@ -4,6 +4,8 @@
     import anime from 'animejs/lib/anime.es.js';
     import { onMount } from 'svelte';
     import Graph1 from '$lib/components/graph_1.svelte';
+    import Graph2 from '$lib/components/graph_2.svelte';
+    import Graph3 from '$lib/components/graph_3.svelte'
     import * as d3 from 'd3';
 
     $: scroll_position = 0;
@@ -43,8 +45,8 @@
         animation_init();
         onscroll_animation();
         clean_graph();
-        new Graph1({
-            target: document.querySelector('svg'),
+        new Graph3({
+            target: document.querySelector('body'),
         });
     });
 

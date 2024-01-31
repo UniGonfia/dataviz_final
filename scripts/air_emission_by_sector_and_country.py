@@ -7,25 +7,25 @@ data = pd.read_csv('../dataset/air_emission_by_sector_and_country.csv', sep=',')
 def map_type(nace_r2):
     match nace_r2:
         case 'A':
-            return 'Agricolture, forestry and fishing'
+            return 'Agricolture, forestry, fishing'
         case 'B':
             return 'Mining and quarryng'
         case 'C':
             return 'Manufacturing'
         case 'D':
-            return 'Electricity, gas, steam and air conditioning supply'
+            return 'Electricity, gas, steam'
         case 'E':
-            return 'Water supply; sewerage, waste management and remediation activities'
+            return 'Water supply'
         case 'F':
             return 'Construction'
         case 'G-U_X_H':
-            return 'Services (except transportation and storage)'
+            return 'Services'
         case 'H':
             return 'Transportation and storage'
         case 'HH':
-            return 'All NACE activities plus households'
+            return 'All NACE activities'
         case 'TOTAL_HH':
-            return 'Total activities by households'
+            return 'Total by household'
 
 data = data.assign(type=data['nace_r2'].map(map_type))
 
