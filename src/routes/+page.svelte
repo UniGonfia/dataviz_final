@@ -140,7 +140,7 @@
             transitionGraph(Graph3, 'body');
         }
 
-        if (scroll_position == 35) {
+        if (scroll_position == 45) {
             transitionGraph(Graph4, '#graph');
         }
 
