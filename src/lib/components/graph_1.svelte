@@ -150,7 +150,7 @@
     
 
     //Description
-    document.getElementsByClassName('description')[0].innerHTML = 
+    document.querySelector('.description p').innerHTML = 
         `
         The graph shows the CO2 emissions of European countries divided by sector. 
         <br/> <br/>

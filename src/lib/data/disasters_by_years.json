@@ -1,0 +1,342 @@
+{
+    "1989": {
+        "Drought": 2.0,
+        "TOTAL": 8.0,
+        "Storm": 5.0,
+        "Flood": 1.0
+    },
+    "1985": {
+        "Extreme temperature": 5.0,
+        "Landslide": 1.0,
+        "TOTAL": 20.0,
+        "Flood": 3.0,
+        "Storm": 5.0,
+        "Wildfire": 6.0
+    },
+    "2004": {
+        "Extreme temperature": 5.0,
+        "Flood": 20.0,
+        "TOTAL": 47.0,
+        "Storm": 17.0,
+        "Landslide": 1.0,
+        "Drought": 1.0,
+        "Wildfire": 3.0
+    },
+    "2007": {
+        "Extreme temperature": 14.0,
+        "TOTAL": 68.0,
+        "Wildfire": 9.0,
+        "Storm": 22.0,
+        "Flood": 22.0,
+        "Drought": 1.0
+    },
+    "2012": {
+        "Extreme temperature": 41.0,
+        "TOTAL": 67.0,
+        "Flood": 18.0,
+        "Storm": 2.0,
+        "Drought": 4.0,
+        "Wildfire": 2.0
+    },
+    "2017": {
+        "Extreme temperature": 6.0,
+        "Flood": 9.0,
+        "TOTAL": 38.0,
+        "Storm": 15.0,
+        "Wildfire": 7.0,
+        "Drought": 1.0
+    },
+    "1992": {
+        "Flood": 7.0,
+        "TOTAL": 17.0,
+        "Drought": 3.0,
+        "Storm": 4.0,
+        "Wildfire": 2.0,
+        "Landslide": 1.0
+    },
+    "1995": {
+        "Flood": 13.0,
+        "TOTAL": 33.0,
+        "Storm": 11.0,
+        "Wildfire": 1.0,
+        "Landslide": 4.0,
+        "Extreme temperature": 4.0
+    },
+    "1997": {
+        "Flood": 22.0,
+        "TOTAL": 42.0,
+        "Storm": 7.0,
+        "Wildfire": 4.0,
+        "Drought": 3.0,
+        "Extreme temperature": 6.0
+    },
+    "2002": {
+        "Flood": 37.0,
+        "Storm": 23.0,
+        "TOTAL": 70.0,
+        "Drought": 1.0,
+        "Extreme temperature": 3.0,
+        "Landslide": 3.0,
+        "Wildfire": 3.0
+    },
+    "2005": {
+        "Flood": 42.0,
+        "Storm": 25.0,
+        "TOTAL": 103.0,
+        "Extreme temperature": 31.0,
+        "Wildfire": 3.0,
+        "Landslide": 2.0
+    },
+    "2009": {
+        "Flood": 18.0,
+        "TOTAL": 45.0,
+        "Extreme temperature": 11.0,
+        "Storm": 9.0,
+        "Wildfire": 5.0,
+        "Landslide": 2.0
+    },
+    "2010": {
+        "Flood": 35.0,
+        "TOTAL": 72.0,
+        "Storm": 14.0,
+        "Extreme temperature": 19.0,
+        "Drought": 1.0,
+        "Wildfire": 2.0,
+        "Landslide": 1.0
+    },
+    "2015": {
+        "Flood": 24.0,
+        "TOTAL": 33.0,
+        "Extreme temperature": 3.0,
+        "Storm": 5.0,
+        "Wildfire": 1.0
+    },
+    "2016": {
+        "Flood": 19.0,
+        "TOTAL": 25.0,
+        "Landslide": 1.0,
+        "Storm": 2.0,
+        "Extreme temperature": 2.0,
+        "Wildfire": 1.0
+    },
+    "2018": {
+        "Flood": 15.0,
+        "TOTAL": 53.0,
+        "Storm": 14.0,
+        "Extreme temperature": 16.0,
+        "Wildfire": 5.0,
+        "Drought": 2.0,
+        "Landslide": 1.0
+    },
+    "2021": {
+        "Flood": 31.0,
+        "TOTAL": 57.0,
+        "Storm": 15.0,
+        "Wildfire": 7.0,
+        "Extreme temperature": 1.0,
+        "Drought": 1.0,
+        "Landslide": 2.0
+    },
+    "2000": {
+        "Drought": 8.0,
+        "TOTAL": 90.0,
+        "Landslide": 6.0,
+        "Storm": 15.0,
+        "Extreme temperature": 13.0,
+        "Wildfire": 15.0,
+        "Flood": 33.0
+    },
+    "2013": {
+        "Extreme temperature": 4.0,
+        "Storm": 25.0,
+        "TOTAL": 49.0,
+        "Flood": 18.0,
+        "Wildfire": 1.0,
+        "Landslide": 1.0
+    },
+    "1998": {
+        "Flood": 17.0,
+        "TOTAL": 41.0,
+        "Storm": 11.0,
+        "Extreme temperature": 7.0,
+        "Landslide": 2.0,
+        "Wildfire": 3.0,
+        "Drought": 1.0
+    },
+    "2019": {
+        "Storm": 21.0,
+        "TOTAL": 58.0,
+        "Extreme temperature": 14.0,
+        "Flood": 21.0,
+        "Landslide": 1.0,
+        "Wildfire": 1.0
+    },
+    "2020": {
+        "Storm": 18.0,
+        "TOTAL": 47.0,
+        "Extreme temperature": 4.0,
+        "Flood": 20.0,
+        "Landslide": 3.0,
+        "Wildfire": 2.0
+    },
+    "2003": {
+        "Extreme temperature": 16.0,
+        "TOTAL": 50.0,
+        "Flood": 17.0,
+        "Drought": 4.0,
+        "Wildfire": 5.0,
+        "Storm": 8.0
+    },
+    "1980": {
+        "Flood": 4.0,
+        "TOTAL": 7.0,
+        "Storm": 1.0,
+        "Drought": 1.0,
+        "Landslide": 1.0
+    },
+    "1982": {
+        "Flood": 4.0,
+        "Landslide": 4.0,
+        "TOTAL": 13.0,
+        "Drought": 1.0,
+        "Storm": 3.0,
+        "Wildfire": 1.0
+    },
+    "1983": {
+        "Flood": 9.0,
+        "TOTAL": 30.0,
+        "Drought": 3.0,
+        "Storm": 9.0,
+        "Landslide": 4.0,
+        "Wildfire": 5.0
+    },
+    "1991": {
+        "Flood": 3.0,
+        "Storm": 5.0,
+        "TOTAL": 16.0,
+        "Drought": 2.0,
+        "Extreme temperature": 4.0,
+        "Wildfire": 2.0
+    },
+    "1996": {
+        "Flood": 14.0,
+        "TOTAL": 24.0,
+        "Storm": 4.0,
+        "Landslide": 3.0,
+        "Extreme temperature": 1.0,
+        "Wildfire": 2.0
+    },
+    "1999": {
+        "Flood": 15.0,
+        "Landslide": 6.0,
+        "TOTAL": 50.0,
+        "Storm": 21.0,
+        "Wildfire": 3.0,
+        "Extreme temperature": 4.0,
+        "Drought": 1.0
+    },
+    "2006": {
+        "Flood": 31.0,
+        "TOTAL": 50.0,
+        "Extreme temperature": 7.0,
+        "Storm": 9.0,
+        "Landslide": 1.0,
+        "Drought": 1.0,
+        "Wildfire": 1.0
+    },
+    "1984": {
+        "Landslide": 1.0,
+        "Storm": 11.0,
+        "TOTAL": 19.0,
+        "Wildfire": 5.0,
+        "Flood": 2.0
+    },
+    "1981": {
+        "Storm": 4.0,
+        "TOTAL": 8.0,
+        "Flood": 3.0,
+        "Drought": 1.0
+    },
+    "1990": {
+        "Storm": 65.0,
+        "TOTAL": 73.0,
+        "Extreme temperature": 1.0,
+        "Landslide": 1.0,
+        "Drought": 2.0,
+        "Wildfire": 2.0,
+        "Flood": 2.0
+    },
+    "1993": {
+        "Storm": 13.0,
+        "TOTAL": 34.0,
+        "Flood": 15.0,
+        "Drought": 2.0,
+        "Extreme temperature": 1.0,
+        "Landslide": 3.0
+    },
+    "1994": {
+        "Storm": 13.0,
+        "TOTAL": 37.0,
+        "Flood": 18.0,
+        "Wildfire": 3.0,
+        "Extreme temperature": 3.0
+    },
+    "2008": {
+        "Storm": 13.0,
+        "TOTAL": 33.0,
+        "Extreme temperature": 9.0,
+        "Flood": 10.0,
+        "Wildfire": 1.0
+    },
+    "2022": {
+        "Storm": 23.0,
+        "TOTAL": 45.0,
+        "Flood": 8.0,
+        "Drought": 4.0,
+        "Extreme temperature": 5.0,
+        "Wildfire": 4.0,
+        "Landslide": 1.0
+    },
+    "2014": {
+        "Extreme temperature": 6.0,
+        "TOTAL": 51.0,
+        "Storm": 15.0,
+        "Flood": 30.0
+    },
+    "2011": {
+        "Flood": 12.0,
+        "Storm": 5.0,
+        "TOTAL": 20.0,
+        "Extreme temperature": 2.0,
+        "Landslide": 1.0
+    },
+    "2001": {
+        "Flood": 28.0,
+        "TOTAL": 54.0,
+        "Storm": 9.0,
+        "Wildfire": 4.0,
+        "Extreme temperature": 12.0,
+        "Landslide": 1.0
+    },
+    "1987": {
+        "Flood": 6.0,
+        "Storm": 8.0,
+        "TOTAL": 19.0,
+        "Extreme temperature": 2.0,
+        "Wildfire": 1.0,
+        "Landslide": 2.0
+    },
+    "1988": {
+        "Flood": 3.0,
+        "TOTAL": 6.0,
+        "Extreme temperature": 1.0,
+        "Landslide": 2.0
+    },
+    "1986": {
+        "TOTAL": 9.0,
+        "Wildfire": 2.0,
+        "Drought": 1.0,
+        "Storm": 5.0,
+        "Flood": 1.0
+    }
+}

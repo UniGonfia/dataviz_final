@@ -22,24 +22,20 @@ years = [f"F{year}" for year in range(1980, 2023)]
 
 grouped_data = {}
 for index, row in european_data.iterrows():
-    country = row['ISO3']
-    if country not in grouped_data:
-        grouped_data[country] = {}
-
     for year in years:
         if pd.notna(row[year]):
             year_short = int(year[1:])  # Converte 'F1980' in 1980
-            if year_short not in grouped_data[country]:
-                grouped_data[country][year_short] = {}
+            if year_short not in grouped_data:
+                grouped_data[year_short] = {}
             
             category = extract_disaster_category(row['Indicator'])
-            if category not in grouped_data[country][year_short]:
-                grouped_data[country][year_short][category] = 0
-            grouped_data[country][year_short][category] += row[year]
+            if category not in grouped_data[year_short]:
+                grouped_data[year_short][category] = 0
+            grouped_data[year_short][category] += row[year]
 
 json_data = json.dumps(grouped_data, indent=4)
 
-output_json_path = '../src/lib/data/disasters_by_countries.json' 
+output_json_path = '../src/lib/data/disasters_by_years.json' 
 
 with open(output_json_path, 'w') as file:
     file.write(json_data)

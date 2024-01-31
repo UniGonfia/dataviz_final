@@ -91,6 +91,8 @@
             .attr("d", d => d3.geoPath().projection(getProjection(d))(d))
             .style("stroke", "none");
 
+        const tooltip = d3.select("#tooltip").style("opacity", 0);
+
         // Update the map based on the selected year
         document.getElementById("yearSlider").addEventListener("input", function() {
             const selectedYear = this.value;
@@ -101,8 +103,6 @@
                 return colorScale(emissions);
             });
 
-            // Select the tooltip div and define its initial state as hidden
-            const tooltip = d3.select("#tooltip").style("opacity", 0);
 
             // Modify the paths to include mouse events for the tooltip
             paths
@@ -125,9 +125,6 @@
             });
         });
 
-
-         // Select the tooltip div and define its initial state as hidden
-        const tooltip = d3.select("#tooltip").style("opacity", 0);
 
         // Modify the paths to include mouse events for the tooltip
         paths
@@ -216,7 +213,7 @@
 
 
      //Description
-    document.getElementsByClassName('description')[0].innerHTML = 
+     document.querySelector('.description p').innerHTML = 
         `
         The graph shows the CO2 emissions of European countries divided by sector. 
         <br/> <br/>
@@ -231,7 +228,7 @@
         <br/> <br/>
         Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
         think that the standards are succeeding at least to a small extent.
-    `;
+        `;
 
 
 </script>
@@ -279,6 +276,8 @@
         transition: opacity 0.3s;
         color: #fff;
         z-index: 300;
+        top: 0;
+        left: 0;
     }
 
 </style>

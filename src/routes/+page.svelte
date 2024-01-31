@@ -3,9 +3,14 @@
     import polarbear_stand from '$lib/images/PolarBear_stand.png';
     import anime from 'animejs/lib/anime.es.js';
     import { onMount } from 'svelte';
+
     import Graph1 from '$lib/components/graph_1.svelte';
     import Graph2 from '$lib/components/graph_2.svelte';
-    import Graph3 from '$lib/components/graph_3.svelte'
+    import Graph3 from '$lib/components/graph_3.svelte';
+    import Graph4 from '$lib/components/graph_4.svelte';
+    import Graph5 from '$lib/components/graph_5.svelte';
+    import Graph6 from '$lib/components/graph_6.svelte';
+
     import * as d3 from 'd3';
 
     $: scroll_position = 0;
@@ -25,6 +30,17 @@
     function onscroll_animation() {
         document.addEventListener('wheel', function(e) {
             animation.play();
+
+            console.log(scroll_position);
+
+            if (scroll_position > 75) {
+                scroll_position = 75;
+            }
+
+            if (scroll_position < 0) {
+                scroll_position = 0;
+            }
+
             if (e.deltaY > 0) {
                 scroll_position++;
             } else {
@@ -35,7 +51,12 @@
 
     function clean_graph() {
         const graph = document.querySelector('svg');
-        graph.innerHTML = '';
+        try {
+            document.getElementsByClassName('input_range')[0].remove();
+            document.getElementsByClassName('tooltip')[0].remove();
+        } catch (error) {
+            console.log("Everything is fine ;D");
+        }
         d3.select(graph).selectAll('*').remove();
     }
     
@@ -44,11 +65,41 @@
         rendered = true;
         animation_init();
         onscroll_animation();
-        clean_graph();
-        new Graph3({
-            target: document.querySelector('body'),
+        new Graph1({
+            target: document.querySelector('#graph'),
         });
     });
+
+
+    function transitionGraph(newGraphConstructor, container) {
+        const graphContainer = document.querySelector(container);
+
+
+        const graph = document.querySelector('#graph');
+        
+        // Move current graph to the left
+        graph.style.transform = 'translateX(-400%)';
+
+        // Wait for the transition to complete
+        setTimeout(() => {
+            // Clean up the old graph
+            clean_graph();
+
+            // Reset the position for the new graph
+            graph.style.transform = 'translateX(100%)';
+
+            // Insert the new graph
+            new newGraphConstructor({
+                target: graphContainer,
+            });
+
+            // Slide in the new graph from the right
+            setTimeout(() => {
+                graph.style.transform = 'translateX(0)';
+            }, 0); // Start immediately after the previous changes
+
+        }, 500); // This duration should match the CSS transition time
+    }
 
 
     let ice_width = 100;
@@ -62,7 +113,7 @@
             }
         }
 
-        if ((ice_width - scroll_position) <= 20) {
+        if ((ice_width - scroll_position) <= 25) {
             const stand = document.querySelector('.stand');
             stand.style.display = 'block';
 
@@ -75,6 +126,33 @@
             const sprite = document.querySelector('.sprite');
             sprite.style.display = 'block';
         }
+
+
+        if (scroll_position == -1) {
+            transitionGraph(Graph1, '#graph');
+        }
+
+        if (scroll_position == 15) {
+            transitionGraph(Graph2, 'body');
+        }
+
+        if (scroll_position == 30) {
+            transitionGraph(Graph3, 'body');
+        }
+
+        if (scroll_position == 35) {
+            transitionGraph(Graph4, '#graph');
+        }
+
+        if (scroll_position == 60) {
+            transitionGraph(Graph5, '#graph');
+        }
+
+        if (scroll_position == 75) {
+            transitionGraph(Graph6, '#graph');
+        }
+
+
     }
 
 
@@ -93,11 +171,11 @@
 
     <div class="ice"></div>
 
-    <p class="description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ipsam asperiores. Tempora dolore fugit dolorem est officiis maxime, deserunt asperiores? Dolorum expedita earum fugiat accusamus placeat perspiciatis ratione reiciendis, odit omnis consectetur blanditiis et aspernatur ab nobis ex aliquam eius necessitatibus odio quisquam sed at unde! Velit optio odio maiores fugit eligendi ducimus officia commodi pariatur, est nesciunt ullam voluptatem itaque aliquam sit unde cupiditate, veniam asperiores? Laboriosam accusantium officia nemo voluptatum mollitia. Fuga dolorum mollitia voluptatum aperiam, blanditiis, culpa cupiditate quasi saepe maxime, quaerat sequi nam quos ipsam neque! Eaque illo reiciendis error in obcaecati perferendis fugit corporis porro perspiciatis? Dicta similique, iure nobis rem in iste obcaecati aliquid quos deserunt vel eos autem quaerat aliquam distinctio voluptates doloribus, sequi iusto. Natus sapiente assumenda, est sed molestiae suscipit nihil aspernatur placeat praesentium? Perferendis iure reprehenderit, error rerum corporis facilis.
-    </p>
+    <div class="description">
+        <p> ciao </p>
+    </div>
 
-    <svg> </svg>
+    <svg id="graph"> </svg>
 
 </div>
 
@@ -145,14 +223,23 @@
     }
 
     .description {
-        font-size: 18px;
-        width: 25rem;
+        width: 30rem;
+        height: 66%;
         position: absolute;
-        left: 5rem;
+        left: 0;
         top: 3rem;
+        z-index: 400;
+        background-color: #0d176d;
     }
 
-    svg {
+    .description p {
+        margin-left: 5rem;
+        width: 25rem;
+        font-size: 18px;
+
+    }
+
+    #graph {
         position: absolute;
         top: 2rem;
         right: 0;
@@ -161,6 +248,7 @@
         margin-inline: auto;
         width: 60%;
         height: 40rem;
+        transition: transform 1s ease-in-out;
     }   
 
 </style>

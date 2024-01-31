@@ -1,4 +1,3 @@
-
 HDR Antarctica Mass
 HDR
 HDR Data from the GRACE and GRACE-FO JPL RL06.1Mv3 Mascon Solution

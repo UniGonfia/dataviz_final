@@ -83,23 +83,23 @@
 
         // Modifica i path per includere gli eventi del mouse per il tooltip
         paths.on("mouseover", function(event, d) {
-        tooltip.transition()
-            .duration(200)
-            .style("opacity", .9);
-        const countryCode = countryCodes[d.id];
-        const year = document.getElementById("yearSlider").value;
-        const contributions = data_file[countryCode] ? (data_file[countryCode][year] || 0) : 0;
-        tooltip.html(`<strong>Country:</strong> ${d.properties.name}<br/>
-                    <strong>Year:</strong> ${year}<br/>
-                    <strong>Contributions:</strong> ${contributions}`)
-            .style("left", (event.pageX) + "px")
-            .style("top", (event.pageY - 28) + "px");
-    })
-    .on("mouseout", function(event, d) {
-        tooltip.transition()
-            .duration(500)
-            .style("opacity", 0);
-    });
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", .9);
+            const countryCode = countryCodes[d.id];
+            const year = document.getElementById("yearSlider").value;
+            const contributions = data_file[countryCode] ? (data_file[countryCode][year] || 0) : 0;
+            tooltip.html(`<strong>Country:</strong> ${d.properties.name}<br/>
+                        <strong>Year:</strong> ${year}<br/>
+                        <strong>Contributions:</strong> ${contributions}`)
+                .style("left", (event.pageX) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(event, d) {
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
 
 
         // Update the map based on the selected year
@@ -204,7 +204,7 @@
 
 
      //Description
-    document.getElementsByClassName('description')[0].innerHTML = 
+     document.querySelector('.description p').innerHTML = 
         `
         The graph shows the CO2 emissions of European countries divided by sector. 
         <br/> <br/>
@@ -219,7 +219,7 @@
         <br/> <br/>
         Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
         think that the standards are succeeding at least to a small extent.
-    `;
+        `;
 
 
 </script>
@@ -267,6 +267,8 @@
         transition: opacity 0.3s;
         color: #fff;
         z-index: 300;
+        top: 0;
+        left: 0;
     }
 
 </style>
