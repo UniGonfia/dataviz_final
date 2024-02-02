@@ -63,6 +63,12 @@
     
     let rendered = false;
     onMount(() => {
+
+        setTimeout(() => {
+            const presentation = document.querySelector('.presentation');
+            presentation.style.opacity = 0;
+        }, 5000);
+
         rendered = true;
         animation_init();
         onscroll_animation();
@@ -164,6 +170,14 @@
 </script>
 
 
+<div class="presentation">
+
+    <img src={polarbear_stand} alt="Polar bear stand">
+
+    <p> The goal of this project is to showcase the causes and effects of climate change, particularly in Europe. To scroll through the charts, you need to move the mouse wheel forward and backward. It is recommended to reduce the browser zoom, usually to 75%/90%, if the visualizations are not clear or if the cursor goes over the text or charts. This issue does not occur on larger screens. </p>
+
+</div>
+
 <div class="home">
 
     <div class="sprite">
@@ -187,6 +201,30 @@
 </div>
 
 <style>
+
+    .presentation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0d176d;
+        z-index: 5000;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 2s ease-in-out;
+    }
+
+    .presentation p {
+        margin-top: 5rem;
+        width: 40rem;
+        font-size: 20px;
+        text-align: center;
+    }
 
     .sprite {
         position: absolute;
