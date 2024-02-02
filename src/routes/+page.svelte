@@ -14,6 +14,7 @@
     import * as d3 from 'd3';
 
     $: scroll_position = 0;
+    var isTransitioning = false;
 
     var animation = null;
     function animation_init() {
@@ -29,22 +30,22 @@
 
     function onscroll_animation() {
         document.addEventListener('wheel', function(e) {
-            animation.play();
+            if (!isTransitioning) {
+                animation.play();
 
-            console.log(scroll_position);
+                if (scroll_position > 75) {
+                    scroll_position = 75;
+                }
 
-            if (scroll_position > 75) {
-                scroll_position = 75;
-            }
+                if (scroll_position < 0) {
+                    scroll_position = 0;
+                }
 
-            if (scroll_position < 0) {
-                scroll_position = 0;
-            }
-
-            if (e.deltaY > 0) {
-                scroll_position++;
-            } else {
-                scroll_position--;
+                if (e.deltaY > 0) {
+                    scroll_position++;
+                } else {
+                    scroll_position--;
+                }
             }
         });
     }
@@ -53,7 +54,7 @@
         const graph = document.querySelector('svg');
         try {
             document.getElementsByClassName('input_range')[0].remove();
-            document.getElementsByClassName('tooltip')[0].remove();
+            document.getElementsByClassName('tooltip')[0].innerHTML = '';
         } catch (error) {
             console.log("Everything is fine ;D");
         }
@@ -72,6 +73,7 @@
 
 
     function transitionGraph(newGraphConstructor, container) {
+        isTransitioning = true;
         const graphContainer = document.querySelector(container);
 
 
@@ -98,6 +100,9 @@
                 graph.style.transform = 'translateX(0)';
             }, 0); // Start immediately after the previous changes
 
+            setTimeout(() => {
+                isTransitioning = false;
+            }, 1000); // This duration should match the CSS transition time
         }, 500); // This duration should match the CSS transition time
     }
 
@@ -177,6 +182,8 @@
 
     <svg id="graph"> </svg>
 
+    <div id="tooltip" class="tooltip"></div>
+
 </div>
 
 <style>
@@ -250,5 +257,20 @@
         height: 40rem;
         transition: transform 1s ease-in-out;
     }   
+
+
+    .tooltip {
+        position: absolute;
+        text-align: left;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.9);
+        border: 0px;
+        border-radius: 4px;
+        opacity: 0;
+        color: #fff;
+        z-index: 3000;
+    }
 
 </style>

@@ -44,7 +44,7 @@
         })(sumstat);
 
     // set the dimensions and margins of the graph
-    const margin = { top: 40, right: 100, bottom: 130, left: 100 };
+    const margin = { top: 40, right: 100, bottom: 130, left: 150 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
     const height = document.querySelector("svg").getBoundingClientRect().height - margin.top - margin.bottom;
 
@@ -148,6 +148,15 @@
         .style("font-size", "0.8em")
         .text(d => d);
     
+    // Add text of unit in y axis
+    svg.append("text")
+        .attr("x", margin.left - 370)
+        .attr("y", -110)
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .style("transform", "rotate(-90deg)")
+        .attr("fill", "white")
+        .text("Tones");
 
     //Description
     document.querySelector('.description p').innerHTML = 

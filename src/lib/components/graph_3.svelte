@@ -79,27 +79,7 @@
             .style("stroke", "none");
 
         // Aggiungi il tooltip
-        const tooltip = d3.select("#tooltip").style("opacity", 0);
-
-        // Modifica i path per includere gli eventi del mouse per il tooltip
-        paths.on("mouseover", function(event, d) {
-            tooltip.transition()
-                .duration(200)
-                .style("opacity", .9);
-            const countryCode = countryCodes[d.id];
-            const year = document.getElementById("yearSlider").value;
-            const contributions = data_file[countryCode] ? (data_file[countryCode][year] || 0) : 0;
-            tooltip.html(`<strong>Country:</strong> ${d.properties.name}<br/>
-                        <strong>Year:</strong> ${year}<br/>
-                        <strong>Contributions:</strong> ${contributions}`)
-                .style("left", (event.pageX) + "px")
-                .style("top", (event.pageY - 28) + "px");
-        })
-        .on("mouseout", function(event, d) {
-            tooltip.transition()
-                .duration(500)
-                .style("opacity", 0);
-        });
+        const tooltip = d3.select("#tooltip");
 
 
         // Update the map based on the selected year
@@ -114,27 +94,49 @@
 
 
 
+            // Modifica i path per includere gli eventi del mouse per il tooltip
+            paths.on("mouseover", function(event, d) {
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", 1);
+                    const countryCode = countryCodes[d.id];
+                    const year = document.getElementById("yearSlider").value;
+                    const contributions = data_file[countryCode] ? (data_file[countryCode][year] || 0) : 0;
+                    tooltip.html(`<strong>Country:</strong> ${d.properties.name}<br/>
+                                <strong>Year:</strong> ${year}<br/>
+                                <strong>Contributions:</strong> ${contributions}`)
+                        .style("left", (event.pageX) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(event, d) {
+                    tooltip.transition()
+                        .duration(500)
+                        .style("opacity", 0);
+                });
+
+
+        });
+
+
+
         // Modifica i path per includere gli eventi del mouse per il tooltip
         paths.on("mouseover", function(event, d) {
-                tooltip.transition()
-                    .duration(200)
-                    .style("opacity", .9);
-                const countryCode = countryCodes[d.id];
-                const year = document.getElementById("yearSlider").value;
-                const contributions = data_file[countryCode] ? (data_file[countryCode][year] || 0) : 0;
-                tooltip.html(`<strong>Country:</strong> ${d.properties.name}<br/>
-                            <strong>Year:</strong> ${year}<br/>
-                            <strong>Contributions:</strong> ${contributions}`)
-                    .style("left", (event.pageX) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            })
-            .on("mouseout", function(event, d) {
-                tooltip.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-            });
-
-
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", 1);
+            const countryCode = countryCodes[d.id];
+            const year = document.getElementById("yearSlider").value;
+            const contributions = data_file[countryCode] ? (data_file[countryCode][year] || 0) : 0;
+            tooltip.html(`<strong>Country:</strong> ${d.properties.name}<br/>
+                        <strong>Year:</strong> ${year}<br/>
+                        <strong>Contributions:</strong> ${contributions}`)
+                .style("left", (event.pageX) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(event, d) {
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
         });
     });
 
@@ -191,7 +193,7 @@
         .attr("dy", "0.35em")
         .attr("fill", "white")
         .style("font-size", "0.8em")
-        .text(d => d3.format(".2s")(d));
+        .text(d => d3.format(".2s")(d).replace("k", "B"));
 
     //Add + int he first text
     legend.append("text")
@@ -206,25 +208,24 @@
      //Description
      document.querySelector('.description p').innerHTML = 
         `
-        The graph shows the CO2 emissions of European countries divided by sector. 
-        <br/> <br/>
-        As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
-        <br/>
-        Focusing mainly on these sectors and reducing emissions would certainly lead to a lowering of pollution in Europe, and it is very interesting to note 
-        the lowering of emissions around 2020, probably caused by the first quarantines for covid, causing a stop in the manufacturing industry and a consequent 
-        lowering of the use of energy resources.
-        <br/> <br/>
-        According to a recent EEA analysis, using the best available techniques and implementing the more ambitious targets of the Industrial Emissions Directive 
-        would result in substantial emission reductions: 91 % for sulphur dioxide, 82 % for particulate matter and 79 % for nitrogen oxides.
-        <br/> <br/>
-        Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
-        think that the standards are succeeding at least to a small extent.
+        This map provides an overview of the financial contributions made by various countries towards the global $100 billion 
+        commitment for climate finance under the United Nations Framework Convention on Climate Change (UNFCCC). It's noteworthy 
+        that the countries historically responsible for the highest carbon dioxide emissions, such as France and Germany, are among 
+        the top contributors to this cause.
+        Over time, we observe an encouraging trend: contributions from all participating nations have generally increased, highlighting a 
+        collective effort to address climate challenges more effectively.
+        <br/><br/>
+        Moreover, this financial contribution is an important metric within the European Union's Sustainable Development Goals (SDG) indicator set, 
+        particularly for monitoring progress towards SDG 13, which focuses on climate action. This alignment underscores the importance the 
+        European Commission places on environmental sustainability, as part of its broader European Green Deal priorities. The Deal aims to 
+        make Europe the first climate-neutral continent by 2050, demonstrating a commitment to environmental stewardship, economic growth, 
+        and social inclusion.
+        <br/><br/>
+        It is possible to see the exact contribution for each country in more detail by mousing over them.
         `;
 
 
 </script>
-
-<div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
 
 <div class="input_range">
@@ -252,23 +253,5 @@
         accent-color: white;
     }
 
-
-    .tooltip {
-        position: absolute;
-        text-align: left;
-        width: auto;
-        height: auto;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.9);
-        border: 0px;
-        border-radius: 4px;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.3s;
-        color: #fff;
-        z-index: 300;
-        top: 0;
-        left: 0;
-    }
 
 </style>

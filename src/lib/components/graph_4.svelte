@@ -35,8 +35,6 @@
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-
-
     // Imposta il dominio dell'asse x con tutti gli anni
     const x = d3.scaleBand()
         .domain(groups) // 'groups' dovrebbe essere l'elenco di tutti gli anni
@@ -120,43 +118,65 @@
         .style("alignment-baseline", "middle")
         .attr("fill", "white")
 
+    svg.append("text")
+        .attr("x", -230)
+        .attr("y", -50)
+        .style("transform", 'rotate(-90deg)')
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .attr("fill", "white")
+        .text("Number of events");
 
+
+    // Assicurati che la selezione e l'append dei rettangoli siano corretti
+    svg.append("g")
+        .selectAll("g")
+        // Entra nel dato stacked
+        .data(stackedData)
+        .enter().append("g")
+        .attr("fill", d => color(d.key))
+        .selectAll("rect")
+        // Entra nei dati del singolo gruppo
+        .data(d => d)
+        .enter().append("rect")
+            .attr("x", d => x(d.data.TIME_PERIOD))
+            .attr("y", d => y(d[1]))
+            .attr("height", d => y(d[0]) - y(d[1]))
+            .attr("width", x.bandwidth())
+            .on("mouseover", function(event, d) {
+                // Mostra il tooltip
+                tooltip.style("opacity", .9)
+                    .html(`<strong>Year:</strong> ${d.data.TIME_PERIOD}<br/>
+                            <strong>Type:</strong> ${d3.select(this.parentNode).datum().key}<br/>
+                            <strong>Number of events:</strong> ${d[1] - d[0]}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 28) + "px");
+            })
+            .on("mouseout", function() {
+                // Nascondi il tooltip
+                tooltip.style("opacity", 0);
+            });
     // Description
     document.querySelector('.description p').innerHTML = 
         `
-        The graph shows the CO2 emissions of European countries divided by sector. 
-        <br/> <br/>
-        As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
-        <br/>
-        Focusing mainly on these sectors and reducing emissions would certainly lead to a lowering of pollution in Europe, and it is very interesting to note 
-        the lowering of emissions around 2020, probably caused by the first quarantines for covid, causing a stop in the manufacturing industry and a consequent 
-        lowering of the use of energy resources.
-        <br/> <br/>
-        According to a recent EEA analysis, using the best available techniques and implementing the more ambitious targets of the Industrial Emissions Directive 
-        would result in substantial emission reductions: 91 % for sulphur dioxide, 82 % for particulate matter and 79 % for nitrogen oxides.
-        <br/> <br/>
-        Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
-        think that the standards are succeeding at least to a small extent.
+        In this stacked bar chart, we can observe the quantity of disastrous events or those that generally caused discomfort in Europe. 
+        It's particularly interesting to note a peak in storms in 1990, attributed to various cyclones and tempests that primarily targeted 
+        Northern Europe during that period. However, setting aside this localized phenomenon, it's crucial to recognize the overall increase 
+        in such events, especially storms, extreme temperatures, and floods that have specifically affected the Eurozone.
+        <br/><br/>
+        The concerning aspect is that this trend is on the rise, which is undoubtedly linked to global warming, as supported by various studies.
+        <br/><br/>
+        This visualization underscores the growing impact of climate change on Europe, highlighting an upward trend in weather-related disasters. 
+        The increased frequency and severity of these events call for urgent attention and action to mitigate the effects of global warming and protect 
+        vulnerable regions. It serves as a stark reminder of the tangible consequences of climate change, emphasizing the need for continued research 
+        and policy efforts to address this global challenge.
+        <br/><br/>
+        It is possible to see the exact number of events for each year in more detail by mousing over them.
         `;
 
 </script>
 
-<div id="tooltip" class="tooltip"></div>
-
 <style>
 
-.tooltip {
-        position: absolute;
-        text-align: left;
-        width: auto;
-        height: auto;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.9);
-        border: 0px;
-        border-radius: 4px;
-        opacity: 0;
-        color: #fff;
-        z-index: 10000;
-    }
 
 </style>

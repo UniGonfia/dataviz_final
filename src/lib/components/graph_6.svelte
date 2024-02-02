@@ -2,7 +2,7 @@
     import * as d3 from 'd3';
     import iceMassData from '$lib/data/ice_mass_data.json';
 
-    const margin = { top: 30, right: 80, bottom: 50, left: 80 };
+    const margin = { top: 30, right: 80, bottom: 50, left: 100 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
     const height = (document.querySelector("svg").getBoundingClientRect().height/2 - margin.top - margin.bottom);
     
@@ -59,33 +59,35 @@
         
         // Add title
         svg.append("text")
-            .attr("x", 150)             
-            .attr("y", (220))
+            .attr("x", 160)             
+            .attr("y", (230))
             .attr("text-anchor", "middle")  
             .style("font-size", "16px") 
             .attr("fill", "white")
             .style("text-decoration", "underline")  
             .text(glacier.toUpperCase());
+            
 
+        svg.append("text")
+            .attr("x", -100)             
+            .attr("y", (20))
+            .style("transform", 'rotate(-90deg)')
+            .attr("text-anchor", "middle")  
+            .style("font-size", "16px") 
+            .attr("fill", "white")
+            .text("Gt of ice");
     });
 
 
     document.querySelector('.description p').innerHTML = 
         `
-        The graph shows the CO2 emissions of European countries divided by sector. 
-        <br/> <br/>
-        As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
-        <br/>
-        Focusing mainly on these sectors and reducing emissions would certainly lead to a lowering of pollution in Europe, and it is very interesting to note 
-        the lowering of emissions around 2020, probably caused by the first quarantines for covid, causing a stop in the manufacturing industry and a consequent 
-        lowering of the use of energy resources.
-        <br/> <br/>
-        According to a recent EEA analysis, using the best available techniques and implementing the more ambitious targets of the Industrial Emissions Directive 
-        would result in substantial emission reductions: 91 % for sulphur dioxide, 82 % for particulate matter and 79 % for nitrogen oxides.
-        <br/> <br/>
-        Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
-        think that the standards are succeeding at least to a small extent.
-        `;
-
+        To conclude, this chart illustrates the melting of glaciers in Antarctica and Greenland. Connected to the previous charts, it continues to demonstrate the negative effects of climate change on our planet Earth, and it's alarming how rapidly the ice is melting.
+        <br/><br/>
+        According to signals and observations collected by satellites, the melting of the two largest Antarctic glaciers, Pine Island and Thwaites, has reached the point of no return. This could lead to a sea-level rise of more than 3 meters. 
+        <br/><br/>
+        According to a study published in PNAS, the massive loss of ice recorded in Greenland over the last 20 years is due to the process of "undercutting." This occurs when the glaciers, retreating, come into contact with the warmer water masses underneath. The ice is then melted from below, leading to greater thinning, which promotes further retreat.
+        <br/><br/>
+        This melting is also causing changes in the habitat of many marine and terrestrial species. If the characteristics of the habitat that hosts certain animal species change, those species, unable to adapt, risk extinction, such as the polar bears.
+        `
 
 </script>

@@ -81,13 +81,25 @@
 
         // Add title
         svg.append("text")
-        .attr("x", 150)             
-        .attr("y", (20))
-        .attr("text-anchor", "middle")  
-        .style("font-size", "16px") 
-        .attr("fill", "white")
-        .style("text-decoration", "underline")  
-        .text(sea);
+            .attr("x", 150)             
+            .attr("y", (20))
+            .attr("text-anchor", "middle")  
+            .style("font-size", "16px") 
+            .attr("fill", "white")
+            .style("text-decoration", "underline")  
+            .text(sea);
+
+        //Add mm at the end of the y axis
+        svg.append("text")
+            .attr("x", margin.left - 100)
+            .attr("y", 10)
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            .style("transform", "rotate(-90deg)")
+            .attr("fill", "white")
+            .text("mm");
+
+
 
         if (index == 2) {
             //add legend
@@ -121,19 +133,16 @@
 
     document.querySelector('.description p').innerHTML = 
         `
-        The graph shows the CO2 emissions of European countries divided by sector. 
-        <br/> <br/>
-        As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
+        This chart is important for demonstrating the causes of climate change, such as sea-level rise. In this instance, it showcases three European seas. 
+        To construct this chart, four main data sources were combined to create a continuous measurement. 
         <br/>
-        Focusing mainly on these sectors and reducing emissions would certainly lead to a lowering of pollution in Europe, and it is very interesting to note 
-        the lowering of emissions around 2020, probably caused by the first quarantines for covid, causing a stop in the manufacturing industry and a consequent 
-        lowering of the use of energy resources.
-        <br/> <br/>
-        According to a recent EEA analysis, using the best available techniques and implementing the more ambitious targets of the Industrial Emissions Directive 
-        would result in substantial emission reductions: 91 % for sulphur dioxide, 82 % for particulate matter and 79 % for nitrogen oxides.
-        <br/> <br/>
-        Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
-        think that the standards are succeeding at least to a small extent.
+        It's significant that since 1992, the sea level for all three has risen by at least 5 cm, and by as much as 15 cm for the Baltic Sea, marking a disastrous phenomenon. 
+        This rise is attributed to 26% glacier melt, 15% to the melting of Greenland, but primarily, 46% is due to thermal expansion and the consequent 
+        increase in temperatures. Some studies suggest that by 2200, if the current trends continue and if all remaining fossil fuels on Earth were 
+        consumed, the sea could rise by as much as 60 meters.
+        <br/><br/>
+        When sea levels rise at the rate observed in recent years, even a small increase can have devastating effects on coastal and inland habitats: destructive erosion, flooding of wetlands, contamination of aquifers and agricultural lands with saltwater, and loss of habitat for fish, birds, and plants.
+        And this ties back to the increase in disastrous events we've seen before, leading us further to demonstrate that climate change is not a hoax as some people believe, but a reality that is here and now.
         `;
 
     // ... (Description code)

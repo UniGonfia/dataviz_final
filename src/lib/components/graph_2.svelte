@@ -91,7 +91,7 @@
             .attr("d", d => d3.geoPath().projection(getProjection(d))(d))
             .style("stroke", "none");
 
-        const tooltip = d3.select("#tooltip").style("opacity", 0);
+        const tooltip = d3.select("#tooltip");
 
         // Update the map based on the selected year
         document.getElementById("yearSlider").addEventListener("input", function() {
@@ -187,7 +187,7 @@
         .join("g");
 
     legend.append("rect")
-        .attr("x", (d, i) => i * 30)
+        .attr("x", (d, i) => i * 40)
         .attr("y", -50)
         .attr("width", 100)
         .attr("height", 10)
@@ -195,12 +195,12 @@
 
 
     legend.append("text")
-        .attr("x", (d, i) => i * 40)
+        .attr("x", (d, i) => i * 50)
         .attr("y", -60)
         .attr("dy", "0.35em")
         .attr("fill", "white")
         .style("font-size", "0.8em")
-        .text(d => d3.format(".2s")(d));
+        .text(d => d3.format(".2s")(d).replace("G", "Kt").replace("M", "Mt").replace("k", "t"));
 
     //Add + int he first text
     legend.append("text")
@@ -215,25 +215,17 @@
      //Description
      document.querySelector('.description p').innerHTML = 
         `
-        The graph shows the CO2 emissions of European countries divided by sector. 
-        <br/> <br/>
-        As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
-        <br/>
-        Focusing mainly on these sectors and reducing emissions would certainly lead to a lowering of pollution in Europe, and it is very interesting to note 
-        the lowering of emissions around 2020, probably caused by the first quarantines for covid, causing a stop in the manufacturing industry and a consequent 
-        lowering of the use of energy resources.
-        <br/> <br/>
-        According to a recent EEA analysis, using the best available techniques and implementing the more ambitious targets of the Industrial Emissions Directive 
-        would result in substantial emission reductions: 91 % for sulphur dioxide, 82 % for particulate matter and 79 % for nitrogen oxides.
-        <br/> <br/>
-        Looking at the graph, we can also see that we have a slight downward trend in the maufacturing and energy sectors, which encourages us and might make us 
-        think that the standards are succeeding at least to a small extent.
+        This map highlights the major producers of CO2 emissions over the years. Interestingly, when comparing the current data to that of 2010, there's a noticeable decrease in emissions, particularly from the two main contributors: Germany and France. This trend aligns with previous data and underscores the progress made, though it's crucial to acknowledge that the journey towards zero emissions is far from over.
+        <br/><br/>
+        Both countries have expressed a strong commitment to further reducing their carbon footprint. By 2030, they aim to cut emissions by 40% compared to current levels. This ambitious goal is partly achievable through shifts in energy production strategies. France, for example, plans to increasingly rely on nuclear energy, while Germany has set a target to reach zero emissions by 2045, mainly reducing greenhouse emissions, and focusing mainly on renewable energies.
+        <br/><br/>
+        These developments indicate a positive direction in the fight against climate change, highlighting the efforts and strategies of countries leading in emission reductions.
+        <br/><br/>
+        It is possible to see the sectors and their emissions for each country in more detail by mousing over them.
         `;
 
 
 </script>
-
-<div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
 
 <div class="input_range">
@@ -262,22 +254,5 @@
     }
 
 
-    .tooltip {
-        position: absolute;
-        text-align: left;
-        width: auto;
-        height: auto;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.9);
-        border: 0px;
-        border-radius: 4px;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.3s;
-        color: #fff;
-        z-index: 300;
-        top: 0;
-        left: 0;
-    }
 
 </style>
