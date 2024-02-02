@@ -17,7 +17,7 @@
     // Set dimensions and margins
     const margin = { top: 20, right: 100, bottom: 60, left: 50 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
-    const height = (document.querySelector("svg").getBoundingClientRect().height/3 - margin.top - margin.bottom);
+    const height = 150;
     // Creare un SVG per ogni mare
     const seas = ['Adriatic Sea', 'Baltic Sea', 'Mediterranean'];
     seas.forEach((sea, index) => {
@@ -28,7 +28,8 @@
         const svg = d3.select('#graph').append("svg")
             .attr("width", (width + margin.left + margin.right))
             .attr("height", (height + margin.top + margin.bottom))
-            .attr("transform", `translate(${0},${(height + margin.top + margin.bottom) * index + 20} )`);
+            .attr("x", `0`)
+            .attr("y", `${index * height + 40 * index}`)
 
         const years = seaData.map(d => d.year);
 

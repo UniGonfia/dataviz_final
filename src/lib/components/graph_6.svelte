@@ -4,7 +4,7 @@
 
     const margin = { top: 30, right: 80, bottom: 50, left: 100 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
-    const height = (document.querySelector("svg").getBoundingClientRect().height/2 - margin.top - margin.bottom);
+    const height = 250;
     
     const glaciers = ['greenland', 'antarctica'];
 
@@ -16,7 +16,8 @@
         const svg = d3.select('#graph').append("svg")
             .attr("width", (width + margin.left + margin.right))
             .attr("height", (height + margin.top + margin.bottom))
-            .attr("transform", `translate(${0},${(height + margin.top + margin.bottom) * index + 30} )`);
+            .attr("x", `0`)
+            .attr("y", `${index * height + 80 * index}`)
 
         // Imposta il dominio dell'asse x con tutti gli anni (assicurati che siano unici)
         const years = data.map(d => d.year);

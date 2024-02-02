@@ -67,7 +67,7 @@
         setTimeout(() => {
             const presentation = document.querySelector('.presentation');
             presentation.style.opacity = 0;
-        }, 5000);
+        }, 4000);
 
         rendered = true;
         animation_init();
