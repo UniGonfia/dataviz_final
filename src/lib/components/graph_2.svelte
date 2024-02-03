@@ -254,5 +254,11 @@
     }
 
 
+    @media screen and (max-width: 1400px) {
+        .input_range {
+            bottom: 3rem;
+        }
+    }
+
 
 </style>

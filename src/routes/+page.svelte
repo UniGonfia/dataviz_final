@@ -373,12 +373,26 @@
     @media screen and (max-width: 1400px) {
         .sprite{
             transform: scale(0.6);
-            bottom: 0rem;
+            bottom: -1rem;
         }
 
         .stand {
             transform: scale(0.6);
-            bottom: 0rem;
+            bottom: -1rem;
+        }
+
+        .ice {
+            height: 1.5rem;
+            bottom: 1rem;
+        }
+
+        .description p {
+            font-size: 17px;
+        }
+
+        #graph {
+            width: 58%;
+            height: 38rem;
         }
     }
 
