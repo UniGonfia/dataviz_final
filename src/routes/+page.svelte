@@ -15,6 +15,7 @@
 
     $: scroll_position = 0;
     var isTransitioning = false;
+    var countdown = 5;
 
     var animation = null;
     function animation_init() {
@@ -64,10 +65,18 @@
     let rendered = false;
     onMount(() => {
 
+
+        let intervalcount = setInterval(() => {
+            countdown--;
+            if (countdown == 0) {
+                clearInterval(intervalcount);
+            }
+        }, 1000);
+        
         setTimeout(() => {
             const presentation = document.querySelector('.presentation');
-            presentation.style.opacity = 0;
-        }, 4000);
+            presentation.style.display = 'none';
+        }, 5000);
 
         rendered = true;
         animation_init();
@@ -172,6 +181,8 @@
 
 <div class="presentation">
 
+    <div class="countdown"> {countdown} </div>
+
     <img src={polarbear_stand} alt="Polar bear stand">
 
     <p> The goal of this project is to showcase the causes and effects of climate change, particularly in Europe. To scroll through the charts, you need to move the mouse wheel forward and backward. It is recommended to reduce the browser zoom, usually to 75%/90%, if the visualizations are not clear or if the cursor goes over the text or charts. This issue does not occur on larger screens. </p>
@@ -189,6 +200,8 @@
     </div>
 
     <div class="ice"></div>
+
+    <div class="hide"></div>
 
     <div class="description">
         <p> ciao </p>
@@ -233,11 +246,13 @@
         width: 304px;
         height: 205px;
         overflow: hidden;
+        z-index: 150;
     }
 
     .sprite > img {
-    width: auto;
-    height: 100%;
+        width: auto;
+        height: 100%;
+        z-index: 151;
     }
 
     .ice {
@@ -247,6 +262,7 @@
         width: 100%;
         height: 2rem;
         background-color: #ffffff;
+        z-index: 155;
     }
 
     .stand {
@@ -257,6 +273,7 @@
         bottom: 3.1rem;
         left: 6rem;
         overflow: hidden;
+        z-index: 151;
 
     }
 
@@ -269,19 +286,29 @@
 
     .description {
         width: 30rem;
-        height: 66%;
+        height: max-content;
         position: absolute;
         left: 0;
-        top: 3rem;
         z-index: 400;
         background-color: #0d176d;
     }
 
     .description p {
+        margin-top: 3rem;
         margin-left: 5rem;
         width: 25rem;
         font-size: 18px;
 
+    }
+
+    .hide {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 30rem;
+        height: 100rem;
+        background-color: #0d176d;
+        z-index: 140;
     }
 
     #graph {
@@ -309,6 +336,23 @@
         opacity: 0;
         color: #fff;
         z-index: 3000;
+    }
+
+    .countdown {
+        font-size: 42px;
+        margin-bottom: 5rem;
+    }
+
+    @media screen and (max-width: 1400px) {
+        .sprite{
+            transform: scale(0.6);
+            bottom: 0rem;
+        }
+
+        .stand {
+            transform: scale(0.6);
+            bottom: 0rem;
+        }
     }
 
 </style>
