@@ -123,7 +123,23 @@
 
 
     let ice_width = 100;
+    let percent = 100;
+    var foo = 0;
     $: if (rendered) {
+
+        document.querySelector('.percent').style.left = ice_width * 0.92 + '%';
+
+        foo = Math.floor(ice_width - scroll_position * 1.33);
+        
+        if (foo < 0) {
+            percent = 0 + '%';
+        } else if (foo > 100) {
+            percent = 100 + '%';
+        } else {
+            percent = foo + '%';
+        }
+
+
         if ((ice_width - scroll_position) > 20) {
             const ice = document.querySelector('.ice');
             if (ice_width - scroll_position < 100) {
@@ -172,7 +188,6 @@
             transitionGraph(Graph6, '#graph');
         }
 
-
     }
 
 
@@ -199,7 +214,11 @@
         <img src={polarbear_stand} alt="polarbear_stand" />
     </div>
 
-    <div class="ice"></div>
+    <div class="ice">
+
+        <p class="percent"> {percent} </p>
+
+    </div>
 
     <div class="hide"></div>
 
@@ -263,6 +282,14 @@
         height: 2rem;
         background-color: #ffffff;
         z-index: 155;
+    }
+
+    .percent {
+        position: absolute;
+        text-align: center;
+        top: 3px;
+        color: black;
+        font-size: 20px;
     }
 
     .stand {
