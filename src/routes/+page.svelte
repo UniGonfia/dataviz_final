@@ -370,6 +370,34 @@
         margin-bottom: 5rem;
     }
 
+
+
+    @media screen and (max-width: 1600px) {
+        .sprite {
+            transform: scale(0.8);
+            bottom: -0.1rem;
+        }
+
+        .stand {
+            transform: scale(0.8);
+            bottom: 0.2rem;
+        }
+
+        .ice {
+            height: 1.5rem;
+            bottom: 1rem;
+        }
+
+        .description p {
+            font-size: 18px;
+        }
+
+        #graph {
+            width: 58%;
+            height: 38rem;
+        }
+    }
+
     @media screen and (max-width: 1400px) {
         .sprite{
             transform: scale(0.6);
@@ -395,5 +423,7 @@
             height: 38rem;
         }
     }
+
+
 
 </style>
