@@ -261,4 +261,13 @@
     }
 
 
+    @media screen and (max-height: 700px) {
+        .input_range {
+            bottom: 3rem;
+            width: 15rem;
+            right: 2rem;
+        }
+    }
+
+
 </style>

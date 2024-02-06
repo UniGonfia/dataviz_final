@@ -4,7 +4,7 @@
 
     const margin = { top: 30, right: 80, bottom: 50, left: 100 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
-    const height = 250;
+    const height =  document.querySelector("svg").getBoundingClientRect().height/2 - margin.top - margin.bottom + 20;
     
     const glaciers = ['greenland', 'antarctica'];
 

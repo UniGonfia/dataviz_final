@@ -425,5 +425,35 @@
     }
 
 
+    @media screen and (max-height: 700px) {
+        .sprite{
+            transform: scale(0.5);
+            bottom: -2rem;
+        }
+
+        .stand {
+            transform: scale(0.5);
+            bottom: -2rem;
+        }
+
+        .ice {
+            height: 1.5rem;
+            bottom: 0.5rem;
+        }
+
+        .description p {
+            font-size: 15px;
+        }
+
+        .description {
+            width: 10rem;
+        }
+
+        #graph {
+            width: 60%;
+            height: 32rem;
+        }
+    }
+
 
 </style>

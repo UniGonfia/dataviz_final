@@ -17,7 +17,7 @@
     // Set dimensions and margins
     const margin = { top: 20, right: 100, bottom: 60, left: 50 };
     const width = document.querySelector("svg").getBoundingClientRect().width - margin.left - margin.right;
-    const height = 150;
+    const height = document.querySelector("svg").getBoundingClientRect().height/3 - margin.top - margin.bottom + 20;
     // Creare un SVG per ogni mare
     const seas = ['Adriatic Sea', 'Baltic Sea', 'Mediterranean'];
     seas.forEach((sea, index) => {
