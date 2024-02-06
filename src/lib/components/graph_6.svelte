@@ -61,7 +61,7 @@
         // Add title
         svg.append("text")
             .attr("x", 160)             
-            .attr("y", (230))
+            .attr("y", (215))
             .attr("text-anchor", "middle")  
             .style("font-size", "16px") 
             .attr("fill", "white")

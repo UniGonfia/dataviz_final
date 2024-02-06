@@ -200,7 +200,7 @@
 
     <img src={polarbear_stand} alt="Polar bear stand">
 
-    <p> The goal of this project is to showcase the causes and effects of climate change, particularly in Europe. To scroll through the charts, you need to move the mouse wheel forward and backward. It is recommended to reduce the browser zoom, usually to 75%/90%, if the visualizations are not clear or if the cursor goes over the text or charts. This issue does not occur on larger screens. </p>
+    <p> The goal of this project is to showcase the causes and effects of climate change, particularly in Europe. To scroll through the charts, you need to move the mouse wheel forward and backward. It is recommended to reduce the browser zoom, usually to 75%/90% and refresh the page. This issue does not occur on larger screens. </p>
 
 </div>
 
@@ -452,6 +452,36 @@
         #graph {
             width: 60%;
             height: 32rem;
+        }
+    }
+
+    @media screen and (max-height: 600px) {
+        .sprite{
+            transform: scale(0.45);
+            bottom: -2.2rem;
+        }
+
+        .stand {
+            transform: scale(0.45);
+            bottom: -2.2rem;
+        }
+
+        .ice {
+            height: 1.5rem;
+            bottom: 0.5rem;
+        }
+
+        .description p {
+            font-size: 14px;
+        }
+
+        .description {
+            width: 10rem;
+        }
+
+        #graph {
+            width: 60%;
+            height: 30rem;
         }
     }
 
