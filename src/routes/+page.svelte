@@ -374,12 +374,12 @@
 
     @media screen and (max-width: 1600px) {
         .sprite {
-            transform: scale(0.8);
+            transform: scale(0.7);
             bottom: -0.1rem;
         }
 
         .stand {
-            transform: scale(0.8);
+            transform: scale(0.7);
             bottom: 0.2rem;
         }
 
@@ -400,12 +400,12 @@
 
     @media screen and (max-width: 1400px) {
         .sprite{
-            transform: scale(0.6);
+            transform: scale(0.55);
             bottom: -1rem;
         }
 
         .stand {
-            transform: scale(0.6);
+            transform: scale(0.55);
             bottom: -1rem;
         }
 
