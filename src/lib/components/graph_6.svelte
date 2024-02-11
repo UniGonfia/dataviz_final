@@ -82,7 +82,7 @@
 
     document.querySelector('.description p').innerHTML = 
         `
-        To conclude, this chart illustrates the melting of glaciers in Antarctica and Greenland. Connected to the previous charts, it continues to demonstrate the negative effects of climate change on our planet Earth, and it's alarming how rapidly the ice is melting.
+        <strong> To conclude, this chart illustrates the melting of glaciers in Antarctica and Greenland. <strong/> <br/> Connected to the previous charts, it continues to demonstrate the negative effects of climate change on our planet Earth, and it's alarming how rapidly the ice is melting.
         <br/><br/>
         According to signals and observations collected by satellites, the melting of the two largest Antarctic glaciers, Pine Island and Thwaites, has reached the point of no return. This could lead to a sea-level rise of more than 3 meters. 
         <br/><br/>

@@ -134,7 +134,7 @@
 
     document.querySelector('.description p').innerHTML = 
         `
-        This chart is important for demonstrating the causes of climate change, such as sea-level rise. In this instance, it showcases three European seas. 
+        <strong> This chart is important for demonstrating the causes of climate change, such as sea-level rise. <strong/> <br/> In this instance, it showcases three European seas. 
         To construct this chart, four main data sources were combined to create a continuous measurement. 
         <br/>
         It's significant that since 1992, the sea level for all three has risen by at least 5 cm, and by as much as 15 cm for the Baltic Sea, marking a disastrous phenomenon. 

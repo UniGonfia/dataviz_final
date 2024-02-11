@@ -208,8 +208,8 @@
      //Description
      document.querySelector('.description p').innerHTML = 
         `
-        This map provides an overview of the financial contributions made by various countries towards the global $100 billion 
-        commitment for climate finance under the United Nations Framework Convention on Climate Change (UNFCCC). It's noteworthy 
+        <strong> This map provides an overview of the financial contributions made by various countries towards the global $100 billion 
+        commitment for climate finance under the United Nations Framework Convention on Climate Change (UNFCCC). <strong/> <br/> It's noteworthy 
         that the countries historically responsible for the highest carbon dioxide emissions, such as France and Germany, are among 
         the top contributors to this cause.
         Over time, we observe an encouraging trend: contributions from all participating nations have generally increased, highlighting a 
