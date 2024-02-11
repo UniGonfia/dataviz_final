@@ -215,7 +215,7 @@
      //Description
      document.querySelector('.description p').innerHTML = 
         `
-        <strong> This map highlights the major producers of CO2 emissions over the years. <strong/> <br/> Interestingly, when comparing the current data to that of 2010, there's a noticeable decrease in emissions, particularly from the two main contributors: Germany and France. This trend aligns with previous data and underscores the progress made, though it's crucial to acknowledge that the journey towards zero emissions is far from over.
+        <strong> This map highlights the major producers of CO2 emissions over the years. </strong> <br/> Interestingly, when comparing the current data to that of 2010, there's a noticeable decrease in emissions, particularly from the two main contributors: Germany and France. This trend aligns with previous data and underscores the progress made, though it's crucial to acknowledge that the journey towards zero emissions is far from over.
         <br/><br/>
         Both countries have expressed a strong commitment to further reducing their carbon footprint. By 2030, they aim to cut emissions by 40% compared to current levels. This ambitious goal is partly achievable through shifts in energy production strategies. France, for example, plans to increasingly rely on nuclear energy, while Germany has set a target to reach zero emissions by 2045, mainly reducing greenhouse emissions, and focusing mainly on renewable energies.
         <br/><br/>

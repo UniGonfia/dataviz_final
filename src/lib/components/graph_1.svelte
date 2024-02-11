@@ -161,7 +161,7 @@
     //Description
     document.querySelector('.description p').innerHTML = 
         `
-        <strong> The graph shows the CO2 emissions of European countries divided by sector. <strong/> 
+        <strong> The graph shows the CO2 emissions of European countries divided by sector. </strong> 
         <br/> <br/>
         As we can see from the graph, the sector that contributes most to pollution in Europe is the manufacturing sector and the energy sector. 
         <br/>

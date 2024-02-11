@@ -159,7 +159,7 @@
     // Description
     document.querySelector('.description p').innerHTML = 
         `
-        <strong> In this stacked bar chart, we can observe the quantity of disastrous events or those that generally caused discomfort in Europe. <strong/> <br/>
+        <strong> In this stacked bar chart, we can observe the quantity of disastrous events or those that generally caused discomfort in Europe. </strong> <br/>
         It's particularly interesting to note a peak in storms in 1990, attributed to various cyclones and tempests that primarily targeted 
         Northern Europe during that period. However, setting aside this localized phenomenon, it's crucial to recognize the overall increase 
         in such events, especially storms, extreme temperatures, and floods that have specifically affected the Eurozone.
